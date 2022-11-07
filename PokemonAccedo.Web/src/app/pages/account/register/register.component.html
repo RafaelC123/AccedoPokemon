@@ -1,0 +1,59 @@
+<div class="container justify-content-center">
+  <div *ngIf="Message; else Loading">
+    <div class="alert alert-success" role="alert">
+      {{Message}}
+    </div>
+  </div>
+  <div *ngIf="Load; else Loading">
+    <div class="alert alert-primary" role="alert">
+      {{Load}}
+    </div>
+  </div>
+
+  <ng-template #Loading>
+  </ng-template>
+
+  <div class="card m-4">
+    <div class="card-body ">
+      <h1>Registrarse</h1>
+
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label>Nomnbre *</label>
+            <input [(ngModel)]="user.firstName" (keyup.enter)="Register()" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Segundo Nombre</label>
+            <input [(ngModel)]="user.secondName" (keyup.enter)="Register()" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Apellido *</label>
+            <input [(ngModel)]="user.firstSurName" (keyup.enter)="Register()" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Segundo apellido</label>
+            <input [(ngModel)]="user.secondSurName" (keyup.enter)="Register()" type="text" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <label>Email *</label>
+            <input [(ngModel)]="user.email" (keyup.enter)="Register()" type="text" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Password *</label>
+            <input [(ngModel)]="user.password" (keyup.enter)="Register()" type="password" class="form-control">
+          </div>
+          <br>
+          <span class="text-danger">{{Errors}}</span>
+          <br>
+          <button routerLink="/account/login" class="btn btn-primary">Ya tengo una cuenta</button>
+          <a (click)="Register()" class="btn btn-primary m-2">Registrarse</a>
+        </div>
+        <div class="col-md-6 justify-content-center align-items-center">
+          <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c325.png"  width="300"/>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

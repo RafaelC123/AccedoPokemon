@@ -1,0 +1,35 @@
+<div class="container">
+  <div class="card m-5">
+    <div class="card-header">
+      <h4 class="card-title">Pokemones</h4>
+    </div>
+    <div class="card-body">
+      <!-- <div class="row" *ngFor="let res of response.Data.results">
+        <div class="card"></div>
+      </div> -->
+      <div *ngIf="response == null; else Loading">
+        <p>Espere...</p>
+      </div>
+
+      <ng-template #Loading >
+        <div class="row">
+          <div *ngFor="let item of response.data?.results" class="col-sm-2">
+
+            <div routerLink="pokemon/{{crypt(item.url)}}" class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+              <div class="card-header">Pokemon</div>
+              <div class="card-body">
+                <h5 class="card-title">{{item.name}}</h5>
+                <p class="card-text">Click para ir</p>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </ng-template>
+
+
+    </div>
+  </div>
+</div>

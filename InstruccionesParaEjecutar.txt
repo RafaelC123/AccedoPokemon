@@ -1,0 +1,27 @@
+Una vez descargado el proyecto, encontrara la solucion dentro de 'PokemonAccedo.Api'
+Al abrir la solucion debe abrir la consola de Administrador de paquetes y ejecutar 'Update-Dabase'
+(Si la cadena de conexion no funciona, pruebe con la de su servidor local Sql Server, pero todo deberia 
+funcionar sin necesidad de cambiarla)
+
+Una vez cargada la base de datos corra la Api
+
+Abra una terminal con permisos de administracion y ubiquese en la carpeta que contiene el proyecto en Angular 'PokemonAccedo.Web'
+Luego ejecute el comando 'ng serve -o' para correr el proyecto, asegurese de que la Api ya este activa
+
+Ingrese a la aplicacion web, registrese y pruebe que todo funciona correctamente
+Para el proyecto completo se uso:
+
+- Net 6
+- EntityFramework
+- Identity
+- Sql Server
+
+Y se usaron practicas como:
+
+- Versionamiento por cabecera
+- Json Web Token y seguridad basada en Claims
+- Patron repositorio
+- Patron Unit Of Work
+- Princiopios SOLID
+- Arquitectura en Capas
+- HttpClientFactory

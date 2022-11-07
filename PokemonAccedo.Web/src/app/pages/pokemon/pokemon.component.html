@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="card m-5">
+    <div class="card-header">
+      <h4 class="card-title">Pokemon</h4>
+    </div>
+    <div class="card-body">
+      <!-- <div class="row" *ngFor="let res of response.Data.results">
+        <div class="card"></div>
+      </div> -->
+      <div *ngIf="Pokemon == null; else Loading">
+        <p>Espere...</p>
+      </div>
+
+      <ng-template #Loading >
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Habilidades</h4>
+            <div *ngFor="let item of Pokemon.data?.abilities" class="col-sm-12">
+              <div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+                <div class="card-body">
+                  <p class="card-text">{{item.ability.name}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <h4>{{Pokemon.data?.name}}</h4>
+            <br><br>
+            <img [src]="Pokemon.data!.sprites!.front_Default" width="150px">
+          </div>
+        </div>
+
+
+
+
+      </ng-template>
+
+
+    </div>
+  </div>
+</div>
