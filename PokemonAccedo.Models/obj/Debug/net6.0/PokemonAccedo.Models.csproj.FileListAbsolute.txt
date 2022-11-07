@@ -22,3 +22,15 @@ C:\Users\rafae\source\repos\RafaelC123\PokemonAccedo\PokemonAccedo.Models\obj\De
 C:\Users\rafae\source\repos\RafaelC123\PokemonAccedo\PokemonAccedo.Models\obj\Debug\net6.0\refint\PokemonAccedo.Models.dll
 C:\Users\rafae\source\repos\RafaelC123\PokemonAccedo\PokemonAccedo.Models\obj\Debug\net6.0\PokemonAccedo.Models.pdb
 C:\Users\rafae\source\repos\RafaelC123\PokemonAccedo\PokemonAccedo.Models\obj\Debug\net6.0\ref\PokemonAccedo.Models.dll
+C:\Users\rafae\Source\Repos\RafaelC123\AccedoPokemon\PokemonAccedo.Models\bin\Debug\net6.0\PokemonAccedo.Models.deps.json
+C:\Users\rafae\Source\Repos\RafaelC123\AccedoPokemon\PokemonAccedo.Models\bin\Debug\net6.0\PokemonAccedo.Models.dll
+C:\Users\rafae\Source\Repos\RafaelC123\AccedoPokemon\PokemonAccedo.Models\bin\Debug\net6.0\PokemonAccedo.Models.pdb
+C:\Users\rafae\Source\Repos\RafaelC123\AccedoPokemon\PokemonAccedo.Models\obj\Debug\net6.0\PokemonAccedo.Models.csproj.AssemblyReference.cache
+C:\Users\rafae\Source\Repos\RafaelC123\AccedoPokemon\PokemonAccedo.Models\obj\Debug\net6.0\PokemonAccedo.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rafae\Source\Repos\RafaelC123\AccedoPokemon\PokemonAccedo.Models\obj\Debug\net6.0\PokemonAccedo.Models.AssemblyInfoInputs.cache
+C:\Users\rafae\Source\Repos\RafaelC123\AccedoPokemon\PokemonAccedo.Models\obj\Debug\net6.0\PokemonAccedo.Models.AssemblyInfo.cs
+C:\Users\rafae\Source\Repos\RafaelC123\AccedoPokemon\PokemonAccedo.Models\obj\Debug\net6.0\PokemonAccedo.Models.csproj.CoreCompileInputs.cache
+C:\Users\rafae\Source\Repos\RafaelC123\AccedoPokemon\PokemonAccedo.Models\obj\Debug\net6.0\PokemonAccedo.Models.dll
+C:\Users\rafae\Source\Repos\RafaelC123\AccedoPokemon\PokemonAccedo.Models\obj\Debug\net6.0\refint\PokemonAccedo.Models.dll
+C:\Users\rafae\Source\Repos\RafaelC123\AccedoPokemon\PokemonAccedo.Models\obj\Debug\net6.0\PokemonAccedo.Models.pdb
+C:\Users\rafae\Source\Repos\RafaelC123\AccedoPokemon\PokemonAccedo.Models\obj\Debug\net6.0\ref\PokemonAccedo.Models.dll

@@ -30,7 +30,7 @@ export class RegisterPage
         if(res)
         {
           console.log("Ok");
-          this.Message = "Usuario logueado correctamente";
+          this.Message = "Usuario registrado correctamente";
         }
         else {
           this.Errors = "Ha ocurrido un error";

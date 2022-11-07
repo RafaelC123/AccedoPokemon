@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rafae\\source\\repos\\RafaelC123\\PokemonAccedo\\PokemonAccedo.Models\\PokemonAccedo.Models.csproj": {}
+    "C:\\Users\\rafae\\Source\\Repos\\RafaelC123\\AccedoPokemon\\PokemonAccedo.Models\\PokemonAccedo.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rafae\\source\\repos\\RafaelC123\\PokemonAccedo\\PokemonAccedo.Models\\PokemonAccedo.Models.csproj": {
+    "C:\\Users\\rafae\\Source\\Repos\\RafaelC123\\AccedoPokemon\\PokemonAccedo.Models\\PokemonAccedo.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rafae\\source\\repos\\RafaelC123\\PokemonAccedo\\PokemonAccedo.Models\\PokemonAccedo.Models.csproj",
+        "projectUniqueName": "C:\\Users\\rafae\\Source\\Repos\\RafaelC123\\AccedoPokemon\\PokemonAccedo.Models\\PokemonAccedo.Models.csproj",
         "projectName": "PokemonAccedo.Models",
-        "projectPath": "C:\\Users\\rafae\\source\\repos\\RafaelC123\\PokemonAccedo\\PokemonAccedo.Models\\PokemonAccedo.Models.csproj",
+        "projectPath": "C:\\Users\\rafae\\Source\\Repos\\RafaelC123\\AccedoPokemon\\PokemonAccedo.Models\\PokemonAccedo.Models.csproj",
         "packagesPath": "C:\\Users\\rafae\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rafae\\Source\\Repos\\RafaelC123\\PokemonAccedo\\PokemonAccedo.Models\\obj\\",
+        "outputPath": "C:\\Users\\rafae\\Source\\Repos\\RafaelC123\\AccedoPokemon\\PokemonAccedo.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
